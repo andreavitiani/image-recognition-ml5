@@ -1,0 +1,28 @@
+#dropzone {
+	background-color: #fff;
+	width: 50%;
+	height: 400px;
+	margin: auto;
+	border: dashed 5px #000;
+	/*	padding: 24px;*/
+	/*	position: absolute;*/
+	vertical-align: middle;
+	display: flex;
+	/*	display: block;*/
+}
+
+#dropzone h2 {
+	text-align: center;
+	font-size: 36pt;
+	/*	line-height: 200px;*/
+	margin: auto;
+
+}
+
+.droppedimage {
+	object-fit: contain;
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0px auto;
+	/*	text-align: center;*/
+}
